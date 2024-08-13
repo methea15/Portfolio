@@ -1,0 +1,72 @@
+@media screen and (max-width:1200px) {
+    
+    #top-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    .home{
+        position: relative;
+        display: flex;
+       margin:1em;
+    }
+    .box{
+        border: 0.1vw solid black;
+    }
+    #Contact{
+       margin-bottom: 0;
+       padding: 0;
+       margin-top: 40em;
+    }
+} 
+@media (max-width:660px) {
+    #Project{
+        margin-top: 40em;
+    }
+    footer{
+        margin-top: 100em;
+        margin-bottom: 0;
+        padding: 0;
+        margin-left: 0;
+        justify-content: left;
+    }
+}
+@media screen and (min-width:660px) {
+
+    .about-container{
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-around;
+    }
+    .about-text, .skill{
+        flex: 1;
+        padding: 1.5rem;
+    }
+    .imge{
+        flex: 1;
+        max-width: 300px;
+    }
+    .skill{
+        align-items: flex-start;
+    }
+    .box{
+        width: 45%;
+        margin: 1em;
+    }
+    .pro-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #Project{
+        margin-top: 15em;
+    }
+    footer{
+        margin-top: 100em;
+        margin-bottom: 0;
+        padding: 0;
+        margin-left: 0;
+        justify-content: left;
+    }
+}

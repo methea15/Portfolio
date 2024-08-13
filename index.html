@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav id="top-nav">
+        <div class="logo">Taing Chansomethea</div>
+        <div>
+            <ul class="links">
+                <li><a href="#about"> About </a></li>
+                <li><a href="#Project"> Project </a></li>
+                <li><a href="#Contact"> Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- mobile nav -->
+    <nav id="hamburger-nav">
+        <div class="logo">Taing Chansomethea</div>
+        <div class="themenu">
+            <div class="icons " onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()"> About </a></li>
+                <li><a href="#Project" onclick="toggleMenu()"> Project </a></li>
+                <li><a href="#Contact" onclick="toggleMenu()"> Contact </a></li>
+           </div>
+        </div>
+    </nav>
+    <div class="home">
+        <header>Welcome to my page</header>
+    </div>
+    <!-- about section -->
+    <section id="about">
+    <br>
+        <h1 class="title">About me</h1>
+        <br>
+        <div class="about-container">
+            <div class="imge">
+            <img class="img-about" src="./pic/a.jpg" alt="profile pic"/>
+        </div>
+        <div class="about-text">
+            <p>I'm currently a third-year of BSc CSE at University of Debrecen.</p>
+        </div>
+            <div class="skill">
+                <h3>Experience</h3></br>
+                <ul>
+                    <li><strong>HTML</strong>: Basic</li>
+                    <li><strong>CSS</strong>: Basic</li><li><strong>JavaScript</strong>: Basic</li><li><strong>Java</strong>: Basic</li>
+                    <li><strong>C</strong>: Basic</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="Project">
+        <h2 class="title">Project</h2>
+        <div class="pro-container">
+            <div class="box">
+                <div class="art">
+                    <h2 class="pro-title">Project One</h2>
+                    <img src="./pic/email.png" alt="Form" class="img-pro">
+                    <button class="btn-pro" onclick="form()">Github</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="art">
+                    <h2 class="pro-title">Project One</h2>
+                    <img src="./pic/email.png" alt="Form" class="img-pro">
+                    <button class="btn-pro" onclick="form()">Github</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="art">
+                    <h2 class="pro-title">Project One</h2>
+                    <img src="./pic/email.png" alt="Form" class="img-pro">
+                    <button class="btn-pro" onclick="form()">Github</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="art">
+                    <h2 class="pro-title">Project One</h2>
+                    <img src="./pic/email.png" alt="Form" class="img-pro">
+                    <button class="btn-pro" onclick="form()">Github</button>
+                </div>
+            </div>
+        </div>    
+    </section> 
+
+<footer>
+    <section id="Contact">
+        <div class="con-container">
+        <p> Get in Touch </p>
+        <h1 class="con-title"> Contact Me </h1>
+        <div class="info">
+            <img src="./pic/git..png" alt="Git logo" onclick="Link_git()" class="icon">
+            <img src="./pic/linkedin-logo.png" alt="linkedin-logo" onclick="Link()" class="icon">
+            <img src="./pic/email.png" alt="email" class="contact-icon email-icon" id="email-icon">
+        </div>
+    </div>
+    </section>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
